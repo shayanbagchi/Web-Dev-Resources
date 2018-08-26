@@ -27,19 +27,9 @@
  * http://www.apache.org/licenses/LICENSE-2.0
  */
 
- .formcard{
-  border: 0;
-  border-radius: 0.1875rem;
-  margin-bottom: 30px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-  display: block;
- }
-
  .imgsize {
   height: 200px;
   width: 200px;
-  padding-top: 20px;
-
  }
 
  .card {
@@ -47,22 +37,18 @@
   border-radius: 0.1875rem;
   margin-bottom: 30px;
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-  display: block;
-  height: 30rem;
-  width: 32rem;
+  justify-content: center;
 }
 
-.login-page .card-login {
-  border-radius: 0.25rem;
-  padding-bottom: 0.7rem;
-  max-width: 320px;
+.cdtxt {
+  text-overflow: ellipsis;
 }
 
  .cardcontainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
+  display: flex-wrap;
+  justify-content: center;
   text-align: center;
+  float: none;
  }
 
 .bootstrap-switch {
@@ -3812,7 +3798,6 @@ Created using IcoMoon - icomoon.io
 
 @font-face {
   font-family: 'Nucleo Outline';
-  font-display: auto;
   src: url("../fonts/nucleo-outline.eot");
   src: url("../fonts/nucleo-outline.eot") format("embedded-opentype"), url("../fonts/nucleo-outline.woff2") format("woff2"), url("../fonts/nucleo-outline.woff") format("woff"), url("../fonts/nucleo-outline.ttf") format("truetype");
   font-weight: normal;
@@ -4595,11 +4580,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-default {
-  background-color: #40A191 !important;
+  background-color: #888888 !important;
 }
 
 .bg-primary {
-  background-color: #D47A1C !important;
+  background-color: #f96332 !important;
 }
 
 .bg-info {
@@ -5722,6 +5707,12 @@ img {
   top: 0;
   content: "";
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-page .card-login {
+  border-radius: 0.25rem;
+  padding-bottom: 0.7rem;
+  max-width: 320px;
 }
 
 .login-page .card-login .btn-wd {
